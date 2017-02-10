@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bussiness Man Stories</string>
+    <string name="app_name1">List Of Business Enterpreneur</string>
+    <string name="app_name2">18th Century List</string>
+    <string name="app_name3">19th Century </string>
+    <string name="app_name4">20th Century </string>
+    <string name="app_name5">21st Century</string>
+    <string name="app_name6">worlds Enterpreneur</string>
+    <string name="app_name11">19th Century List </string>
+    <string name="app_name12">20th Century List </string>
+    <string name="app_name13">Indian Enterpreneur </string>
+    <string name="app_name22">Business Enterpreneur</string>
+    <string name="app_name23">Quotes </string>
+    <string name="app_name7">Motivational Stories</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

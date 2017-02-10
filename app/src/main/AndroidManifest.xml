@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geniusnine.android.bussinessmansuccessfulstories">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BusinessEnterprenures.List_Of_Businessman_Enterpreneur"
+            android:label="@string/app_name1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BusinessEnterprenures.CallNineteenthCenturydetails"
+            android:label="@string/app_name11"
+            android:parentActivityName=".BusinessEnterprenures.CallEighteenthCenturyFiles" />
+        <activity
+            android:name=".BusinessEnterprenures.CallNineteenthcenturyDetailview"
+            android:label="@string/app_name3"
+            android:parentActivityName=".BusinessEnterprenures.CallNineteenthCenturydetails" />
+        <activity
+            android:name=".BusinessEnterprenures.CallTwentyCenturydetails"
+            android:label="@string/app_name12"
+            android:parentActivityName=".BusinessEnterprenures.List_Of_Businessman_Enterpreneur" />
+        <activity
+            android:name=".BusinessEnterprenures.CallTwentyCenturydetailsView"
+            android:label="@string/app_name4"
+            android:parentActivityName=".BusinessEnterprenures.CallTwentyCenturydetails" />
+        <activity
+            android:name=".BusinessEnterprenures.CallTwentyFirstCenturydetails"
+            android:label="@string/app_name5"
+            android:parentActivityName=".BusinessEnterprenures.List_Of_Businessman_Enterpreneur" />
+        <activity
+            android:name=".BusinessEnterprenures.CallTwentyFirstCenturydetailsView"
+            android:label="@string/app_name5"
+            android:parentActivityName=".BusinessEnterprenures.CallTwentyFirstCenturydetails" />
+        <activity
+            android:name=".WorldsTopBusinessEnterpreneur.List_Of_WorldsEnterpreneur"
+            android:label="@string/app_name6"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".WorldsTopBusinessEnterpreneur.CallWorldsEnterpreneurDetailsView"
+            android:label="@string/app_name6"
+            android:parentActivityName=".WorldsTopBusinessEnterpreneur.List_Of_WorldsEnterpreneur" />
+        <activity
+            android:name=".List_Of_MotivationalStories.List_Of_Motivational_Stories"
+            android:label="@string/app_name7"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".List_Of_MotivationalStories.CallMotivationalDetailsView"
+            android:label="@string/app_name7"
+            android:parentActivityName=".List_Of_MotivationalStories.List_Of_Motivational_Stories" />
+        <activity
+            android:name=".IndiaTopEnterpreneurs.List_Of_IndianEnterpreneurs"
+            android:label="@string/app_name13"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".IndiaTopEnterpreneurs.CallIndianEnterpreneurDetails"
+            android:label="@string/app_name13"
+            android:parentActivityName=".IndiaTopEnterpreneurs.List_Of_IndianEnterpreneurs" />
+        <activity
+            android:name=".Quotes.QuotesList"
+            android:label="@string/app_name23"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".IntroductionView.Introduction"
+            android:label="@string/app_name22"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BusinessEnterprenures.CallEigthteenthCenturydetails"
+            android:label="@string/app_name2"
+            android:parentActivityName=".BusinessEnterprenures.List_Of_Businessman_Enterpreneur" />
+        <activity
+            android:name=".BusinessEnterprenures.CallEighteenthCenturyFiles"
+            android:label="@string/app_name2"
+            android:parentActivityName=".BusinessEnterprenures.CallEigthteenthCenturydetails" />
+        <activity android:name=".QuotesListDetails"
+            android:label="Quotes"
+            android:parentActivityName=".Quotes.QuotesList"/>
+        <activity android:name=".ViewPagerAdapter"></activity>
+    </application>
+
+</manifest>

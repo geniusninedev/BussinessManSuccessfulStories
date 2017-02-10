@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.geniusnine.android.bussinessmansuccessfulstories.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/business123">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+            <Button
+                android:text="Introduction"
+                android:layout_width="159dp"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:id="@+id/button"
+                android:onClick="callWorldsTopBusinessEnterprenuresIntroduction"
+                />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <Button
+                android:text="Business Enterpreneur"
+                android:layout_width="159dp"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/BusinessEnterprenuresbtn"
+                android:onClick="callBusinessEnterprenuresIndex"
+                android:background="@drawable/mybutton" />
+        </LinearLayout>
+       <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+            <Button
+        android:text="Worlds Top Enterpreneur"
+        android:layout_width="159dp"
+                android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/WorldsBusinessEnterprenuresbtn"
+        android:onClick="callWorldsTopBusinessEnterprenuresIndex"
+        android:background="@drawable/mybutton"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <Button
+                android:text="MotivationalStories"
+                android:layout_width="159dp"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MotivationalStories"
+                android:onClick="callMotivationalStorieIndex"
+                android:background="@drawable/mybutton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:gravity="left">
+
+            <Button
+                android:text="Indian Top Enterpreneur"
+                android:layout_width="159dp"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/IndiaTopEnterpreneur"
+                android:onClick="callIndiaTopEnterpreneursindex"
+                android:background="@drawable/mybutton"
+                android:layout_marginLeft="1dp" />
+        </LinearLayout>
+            <!--<LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">-->
+                <Button
+                    android:text="Quotes"
+                    android:layout_width="159dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quotes"
+                    android:onClick="callQuotes"
+                    android:background="@drawable/mybutton" />
+           <!-- </LinearLayout>-->
+
+        </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_call_twenty_centurydetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.geniusnine.android.bussinessmansuccessfulstories.BusinessEnterprenures.CallTwentyCenturydetails">
+
+
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ListOfTwentyCentury" />
+
+    <TextView
+        android:text=""
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TwentycenturytextView"
+        android:textColor="@android:color/black"/>
+</RelativeLayout>
